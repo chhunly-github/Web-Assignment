@@ -1,0 +1,251 @@
+body{
+	font-family: 'Khmer OS Siemreap';
+}
+nav{background-color: #993013; }
+a{color:#fff;}
+.icon-bar{background-color: #fff;}
+img#logos{width:150px; height:50px; margin-top:-15px;}
+ul.dropdown-menu li{height:40px; line-height:40px; padding-left:10px; padding-right: 10px;}
+ul.dropdown-menu li a{padding:10px;}
+ul.dropdown-menu li:hover a{background-color:#46371D; color:#fff; }
+.slide{margin-top:5px;}
+.carousel-inner{height:350px;}
+.control{margin-top: 110px;} 
+.items.carousel-inner{background-color:#fff;}
+.item img{width:100%; height:250px;}
+
+.title{
+	margin-top:10px;padding-top: 5px;
+	padding-bottom:10px;
+	font-size:20px; /* border-bottom:2px solid red; */
+	margin-bottom:20px;
+	font-family: 'Khmer OS Muol';
+}
+.thumbnail img{width:180px; height:200px;}
+.thumbnail:hover{
+	opacity: 0.8;
+}
+.container-border{border-left: 1px #ccc solid; border-right: 1px #ccc solid;}
+.footer{height:45px; line-height:45px; background-color: #993013; color:#fff;margin-top: 5px;}
+#content{
+	min-height: 300px;
+	background-color:rgba(0,0,0,0.2);
+	filter:alpha(opacity=100);
+}
+.clear-fixed{
+	height: 55px;
+}
+
+
+/*photo page*/
+/* .container{
+	background-color:rgba(0,0,0,0.5);
+	filter:alpha(opacity=100);
+	z-index: -1;
+}
+ */
+.photo{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	text-align: center;
+	margin-bottom: 5px; 
+	height: 250px;
+}
+.photo .name{
+	position: absolute;
+	bottom: 20px;
+}
+.photo .name a{
+	color: white;
+}
+.photo .name h2{
+	transform:translatey(20px);
+}
+
+.photo .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .3s ease-in-out;
+transition:all .3s ease-in-out
+}
+
+.photo img {
+display:block;
+position:relative;
+-webkit-transition:all .3s linear;
+transition:all .3s linear;
+}
+
+.photo h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.photo a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .1s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:7px 14px;
+}
+
+.photo a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.photo:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+.photo:hover .name{
+	visibility: hidden;
+}
+.photo:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.photo:hover h2,.photo:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.photo:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+
+.photo-view{
+	padding: 5px;
+}
+.photo-view img{
+	max-height: 300px;
+}
+.photo-view:hover{
+	-ms-transform:scale(1.2);
+	-webkit-transform:scale(1.01);
+	transform:scale(1.01);
+	box-shadow:0 0 5px #fff;
+}
+/*end of photo*/
+
+/*achivement-page*/
+.modal-content{
+	top: 40px;
+}
+.modal-body {
+    padding: 5px;
+    }
+ .description{
+  	text-align: center;
+ }	  
+ .header-title{ 
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-family: 'Khmer OS Muol';
+}
+
+#group-title-css{
+	color: white;
+	background-color: #993013;	
+}
+#group-title-css:hover{
+    cursor: pointer;
+    color: #9930ff;
+}
+.thumbnail:hover{
+    cursor: pointer;   
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover{
+    color: #993013;
+    text-decoration: none;
+    background-color:rgba(153, 48, 19, 0.5);
+}
+.box-css:focus, .box-css:hover{
+	box-shadow: 10px 10px 10px #993013;
+}
+/*end of achivement-page*/
+
+/*detail page*/
+.conbox{
+	margin-top:10px;	
+}
+.conboximage{
+	width:100%;
+	height:200px;
+	background-color:#CCC;	
+}
+.conboximage img{
+	width:95%;
+	height:95%;
+	padding-left:5%;
+	padding-top:5%;	
+}
+.conboximage:hover{
+	background-color:#999;	
+}
+.conboxtext{
+	width:100%;
+	text-align:center;	
+}
+/* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    /*Scoll Top Style*/
+    #box{
+        width:10px;
+         
+      }
+      #scrolltop{
+        width:50px;
+        height:50px;
+          
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        display:none;
+      }
+      #scrolltop img{
+        width:100%;
+        height:100%;  
+      }
+      #scrolltop img:hover{
+        cursor:pointer; 
+      }
+      .img-test{
+        margin:0 auto;
+      }
+/*end of detail page*/

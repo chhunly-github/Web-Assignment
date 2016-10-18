@@ -1,0 +1,21 @@
+.conbox{
+	margin-top:10px;	
+}
+.conboximage{
+	width:100%;
+	height:200px;
+	background-color:#CCC;	
+}
+.conboximage img{
+	width:95%;
+	height:95%;
+	padding-left:5%;
+	padding-top:5%;	
+}
+.conboximage:hover{
+	background-color:#999;	
+}
+.conboxtext{
+	width:100%;
+	text-align:center;	
+}

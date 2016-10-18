@@ -1,0 +1,203 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/screens.css">
+    <link rel="shortcut icon" href="images/shortcut.gif" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	
+	<title>កម្រង​ស្នាដៃ</title>
+</head>
+<body>
+<nav class="nav navbar-fixed-top">
+   	   <div class="container">
+   	   	   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span> 
+           </button>
+
+           <div class="navbar-header">
+               <div class="navbar-brand" >
+                  <a href="index.html"><img src="images/logo3.png"  id="logos"></a>
+              </div>
+           </div>
+
+           <ul class="nav navbar-nav collapse navbar-collapse pull-right" id="myNavbar">
+              <li><input type="text" class="form-control" name="input-search" placeholder="ស្វែងរក" style="margin-top: 10px;" class="nav-search"></li>
+               <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> 
+                          ទំព័រដើម</a></li>
+               <li>
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">     
+                               តារាចម្រៀង <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="">តារាចម្រៀងជំនាន់ដើម</a></li>
+                            <li><a href="">តារាចម្រៀងជើងចាស់</a></li>
+                            <li><a href="">តារាចម្រៀងសម័យថ្មី</a></li>
+                        </ul>       
+               </li>
+               
+               <li><a href="photos.html"><i class="fa fa-camera" aria-hidden="true"></i> 
+                          កម្រងរូបភាព</a></li>
+               <li><a href="achievement-page.html"><i class="fa fa-trophy" aria-hidden="true"></i> 
+                          ស្នាដៃសិល្បះ</a></li>
+              <!--  <li>
+                         <a href=""><i class="fa fa-lock" aria-hidden="true"></i> 
+                                    ចុះឈ្មោះ</a></li> -->
+               <li>
+                          <a href=""><i class="fa fa-graduation-cap" aria-hidden="true"></i>  
+                                     អំពីយើង</a></li>
+           </ul> 
+   	   </div>
+
+</nav>
+	<div class="clear-fixed"></div>
+	<div class="container" id="content">
+		<div class=" header-title bg bg-primary" >
+			<h4>ស្នា​ដៃ​ចម្រៀង​ពេញ​និយម​</h4>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-6">				
+				<div class = "thumbnail box-css" data-toggle="modal" data-target="#introVideo" data-id="https://www.youtube.com/embed/aULOQYfeksY?autoplay=1">
+					<img src = "img/header.jpg">		      
+					<div class = "caption">
+						<p>ចំណង​ជើង​</p>
+						<p>Description</p>		         
+					</div>	
+				</div>
+
+				<div class="modal fade bs-example-modal-lg" id="introVideo">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<br>
+									 <!-- 16:9 aspect ratio -->
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="" id="modal-video"></iframe>
+								</div>
+								<br>					        
+							</div><!-- modal body -->
+						</div><!-- modalcontent -->
+						</div><!-- modaldialog -->
+				</div><!-- modal -->	      								
+			</div><!--end column-->​
+		</div><!--end row--><br><br>
+
+		<div class=" header-title bg bg-primary">		
+			<h4>តារាង​ស្នា​ដៃ​ចម្រៀង​របស់​សិល្បករ</h4>
+		</div>
+		<div class="row" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+			<div class="col-md-2 col-sm-4" id="left_side">
+				<div id="menu">
+					<div class="panel list-group" id="myScrollspy">
+				<!-- non-collapse -->
+						<a class="list-group-item" id="group-title-css" data-toggle="collapse" data-target="#submenu1" data-parent="#menu">តារា​ចម្រៀង​ទសវត្ស៦០</a>
+						<div id="submenu1" class="sublinks collapse in">
+							<a href="#sin-sisamot" class="list-group-item">ស៊ិន​ ស៊ី​សាមុត</a>
+							<a href="#" class="list-group-item">ប៉ែន​ រ៉ន​</a>
+							<a href="#" class="list-group-item">រស់​ សេរី​សុទ្ធា​</a>
+							<a href="#" class="list-group-item">កែវ​ សារ៉ាត់​</a>
+							<a href="#" class="list-group-item">សុះ​ ម៉ាត់​</a>
+							<a href="#" class="list-group-item">អ៊ិន​ យ៉េង​</a>
+						</div> 
+						
+						<!-- non-collapse -->
+						<a class="list-group-item" id="group-title-css" data-toggle="collapse" data-target="#submenu2" data-parent="#menu">តារា​ចម្រៀង​ជើង​ចាស់</a>
+			  			<div id="submenu2" class="sublinks collapse">
+							<a href="javascript:getContent('him_sivorn.html','#right_side')" class="list-group-item">ហ៊ឹម ស៊ីវន</a>
+							<a href="#" class="list-group-item">ណយ វ៉ាន់ណេត</a>
+							<a href="#" class="list-group-item">ហួ ឡាវី</a>
+							<a href="#" class="list-group-item">ទូច ស៊ុននិច</a>
+							<a href="#" class="list-group-item">ម៉េង កែវពេជ្រចិន្ដា</a>
+							<a href="#" class="list-group-item">ឈឿន ឧត្តម</a>
+						</div>
+						<a class="list-group-item" id="group-title-css" data-toggle="collapse" data-target="#submenu3" data-parent="#menu">តារា​ចម្រៀង​សម័យ​ថ្មី​</a>
+						<div id="submenu3" class="sublinks collapse">						  		 			  
+							<a href="#" class="list-group-item">ព្រាប សុវត្ថិ</a>
+							<a href="#" class="list-group-item">ឳក សុគន្ធកញ្ញា</a>
+							<a href="#" class="list-group-item">សុគន្ធ នីសា</a>
+							<a href="#" class="list-group-item">មាស សុខសោភា</a>
+							<a href="#" class="list-group-item">ឆន សុវណ្ណរាជ</a>
+							<a href="#" class="list-group-item">ឈឿន ឧត្តម</a>
+						</div>
+					</div>
+				</div>
+			</div><!--end singer-list -->
+
+			<div class="col-md-10 col-sm-8" id="right_side">
+				<div class="row">	
+					<div class="col-md-4 col-sm-6">											
+						<div class = "thumbnail box-css" data-toggle="modal" data-target="#introVideo" data-id="https://www.youtube.com/embed/LpHmNcTcWoE?autoplay=1">
+							<img src = "images/sinsisamon.jpg">		      
+							<div class = "caption">
+							<p>ចំណង​ជើង​: ភ័ព្វសំណាង</p>
+							<p>ច្រៀង​ដោយ​: ស៊ិន​ ស៊ី​សាមុត</p>		         
+							</div>	
+						</div> <!--thumnail-->
+					</div> <!--end column small-->
+
+					<div class="col-md-4 col-sm-6 ">											
+						<div class = "thumbnail box-css" data-toggle="modal" data-target="#introVideo" data-id="https:///www.youtube.com/embed/Hqps7Cb6n0M?autoplay=1">
+							<img src = "images/sinsisamon.jpg">		      
+							<div class = "caption">
+								<p>ចំណង​ជើង​: រំដួល​ ដង​ស្ទឹង​សង្កែ</p>
+								<p>ច្រៀង​ដោយ​: ស៊ិន​ ស៊ី​សាមុត</p>		         
+							</div>	
+						</div> <!--thumnail-->
+					</div> <!--end column small-->
+
+					<div class="col-md-4 col-sm-6">											
+						<div class = "thumbnail box-css" data-toggle="modal" data-target="#introVideo" data-id="https://www.youtube.com/embed/LpHmNcTcWoE?autoplay=1">
+							<img src = "images/sinsisamon.jpg">		      
+							<div class = "caption">
+								<p>ចំណង​ជើង​: ភ័ព្វសំណាង</p>
+								<p>ច្រៀង​ដោយ​: ស៊ិន​ ស៊ី​សាមុត</p>		         
+							</div>	
+						</div> <!--thumnail-->
+					</div> <!--end column small-->
+				</div><!-- sin sisamot -->
+			</div>​<!--end column big-->
+		</div><!--end row-->
+	</div><!--end container-->
+
+<div class="container-fluid footer">
+       <div class="container">
+            <div class="text-right">&copy; រក្សាសិទ្ធដោយសិល្បះករខ្មែរ</div>
+       </div>
+        
+    </div>
+
+<script>
+    $('.thumbnail').on('click',function(){
+		 //var src=$('iframe').attr('src');
+		 var src=$(this).attr('data-id');
+		 $('#modal-video').attr('src',src);
+		 //$('#introVideo').modal('show');
+		
+	});
+	$('#introVideo').on('hidden.bs.modal', function (e) {
+    	console.log("hide");
+    	$('#modal-video').attr('src','');
+    });
+
+    function getContent(url,div){
+    	$(div).load(url);
+    }
+</script>
+
+<script src="js/script.js"></script>
+    <!-- Scoll TOp -->
+  <div id="box">
+  </div>
+  <div id="scrolltop">
+    <img src="images/up-arrow-circle-md.png" />  
+  </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.modal-content{
+	top: 40px;
+}
+.modal-body {
+    padding: 5px;
+    }
+ .description{
+  	text-align: center;
+ }	  
+ .header-title{ 
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+
+#group-title-css{
+	color: white;
+	background-color: #993013;	
+}
+#group-title-css:hover{
+    cursor: pointer;
+}
+.thumbnail:hover{
+    cursor: pointer;   
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover{
+    color: #993013;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:rgba(153, 48, 19, 0.5);
+}
+.box-css:focus, .box-css:hover{
+	box-shadow: 10px 10px 10px #993013;
+}
+#content{
+    margin-top: 55px!important;
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Detail Page</title>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/style_detail.css" rel="stylesheet" type="text/css" />
+  <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="jquery.min.js"></script>
+  <link href="assets/plugins/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/plugins/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css" />
+  <style>    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    /*Scoll Top Style*/
+    #box{
+        width:10px;
+         
+      }
+      #scrolltop{
+        width:50px;
+        height:50px;
+          
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        display:none;
+      }
+      #scrolltop img{
+        width:100%;
+        height:100%;  
+      }
+      #scrolltop img:hover{
+        cursor:pointer; 
+      }
+      .img-test{
+        margin:0 auto;
+      }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">ទំព័រដើម</a></li>
+        <li><a href="#">តារាខ្មែរ</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ប្រភេទ<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">កម្លែង</a></li>
+            <li><a href="#">អ្នកចម្រៀង</a></li>
+            <li><a href="#">អ្នកសម្តែង</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container ">    
+  <div class="row">
+    <div class="col-sm-12">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-body">
+              <h3>ពត័មានលំអិតអំពីសិល្បករ</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="well">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active"><a href="#">ទំព័រដើម</a></li>
+              <li><a href="#">ជីវប្រវត្តិ សង្ខេប</a></li>
+              <li><a href="#">ជីវប្រវត្តិ</a></li>
+              <li><a href="#">ស្នាដៃ</a></li>
+              <li><a href="#">ការសិក្សា</a></li>
+            </ul>
+            
+          </div>
+
+        </div>
+        <div class="col-sm-10">
+          <div class="col-sm-3">
+            <div class="well text-center text-responsive">
+              <img class="img-responsive img-test" src="image/index.jpg"><br>
+              <p><b>លោក​ ស៊ីន ស៊ីសាមុត​</b></p>
+            </div>
+          </div>
+
+          <div class="col-sm-9">
+            <div class="well">
+            <p><b>ជីវប្រវត្តិ សង្ខេប</b></p>
+            
+          </div>
+    
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-2">
+          
+        </div>
+        <div class="col-sm-10">
+          <div class="well">
+            <p><b>ជីវប្រវត្តិ</b></p>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-2">
+          
+        </div>
+        <div class="col-sm-10">
+          <div class="well">
+            <p><b>ការសិក្សា និង​ស្នាដៃ</b></p>
+  
+          </div>
+        </div>
+        
+      </div>
+
+      
+      <div class="row">
+          <div class="owl-carousel owl-theme" id="owl-multi">
+              <div class="item">
+                <img src="assets/images/gallery/1.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/2.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/3.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/4.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/5.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/6.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/7.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/8.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/9.jpg" />
+              </div>
+              <div class="item">
+                <img src="assets/images/gallery/10.jpg" />
+              </div>
+                                    
+          </div>
+    </div>
+
+      
+
+      </div>     
+    </div>
+   
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+<script>
+            var resizefunc = [];
+        </script>
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        
+        <script src="assets/plugins/owl.carousel/dist/owl.carousel.min.js"></script>
+        
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                //owl carousel
+                $("#owl-slider").owlCarousel({
+                    loop:true,
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            animateOut: 'fadeOut',
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+                });
+                
+                $("#owl-slider-2").owlCarousel({
+                    loop:false,
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+                });
+                
+                //Owl-Multi
+                $('#owl-multi').owlCarousel({
+            loop:true,
+            margin:20,
+            nav:false,
+            autoplay:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                480:{
+                    items:2
+                },
+                700:{
+                    items:4
+                },
+                1000:{
+                    items:3
+                },
+                1100:{
+                    items:5
+                }
+            }
+        })
+     });
+            
+    </script>
+
+    <script>
+      $(document).ready(function(){
+          $(window).scroll(function(){
+          if($(this).scrollTop()>100){
+            $("#scrolltop").fadeIn(300);  
+          }
+          else{
+            $("#scrolltop").fadeOut(300); 
+          }
+        });
+        $("#scrolltop img").click(function(){
+          $(window).scrollTop(0); 
+        });
+      });
+    </script>
+    <!-- Scoll TOp -->
+    <div id="box">
+    </div>
+    <div id="scrolltop">
+      <img src="image/up-arrow-circle-md.png" />  
+    </div>
+</body>
+</html>
